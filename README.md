@@ -51,6 +51,7 @@ After you're finished please remove all the comments and instructions!
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [📝 License ](#-license-)
@@ -162,12 +163,16 @@ your prefer platform
 
 - [GitHub:](https://github.com/Paulinelali)
 - [Linkedin:](https://www.linkedin.com/in/ayomide-emmanuel-1353b31b9/)
-- [Twitter:](https://twitter.com/Ayomide_S_E_25)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+I will be doing but not limited to the following:
+- [x] add more feature
+- [x] add user interaction
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,7 +204,5 @@ Give it a start and contribute
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
