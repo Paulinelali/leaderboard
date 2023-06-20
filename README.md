@@ -1,5 +1,3 @@
-# Pauline's Portfolio Project
-
 <a name="readme-top"></a>
 
 <!--
