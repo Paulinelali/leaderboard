@@ -1,22 +1,12 @@
+const urlLink = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SsCI5NH8IPPNIcBNj2Fk/scores/';
 
-
-const urlLink = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SsCI5NH8IPPNIcBNj2Fk/scores/`
+const errorMsg = '';
 
 const getGames = async () => {
-    let errorMsg = "";
-    let dataArr = [];
-    
-    try {
-        const response = await fetch(urlLink);
-        const data = await response.json();
-        const users = data.result;
-        return users;
+  const response = await fetch(urlLink);
+  const data = await response.json();
+  const users = data.result;
+  return users;
+};
 
-    } catch (error) {
-        errorMsg = error
-        return errorMsg
-    }
-    
-}
-
-export default getGames;
+export { getGames, errorMsg };
