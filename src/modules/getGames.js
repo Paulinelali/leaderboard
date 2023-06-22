@@ -1,4 +1,4 @@
-const urlLink = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SsCI5NH8IPPNIcBNj2Fk/scores/';
+const urlLink = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/jtg0LMisWb65pFPzmccG/scores/';
 
 const errorMsg = '';
 

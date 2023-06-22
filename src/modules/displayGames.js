@@ -2,6 +2,7 @@ import { getGames, errorMsg } from './getGames.js';
 
 const listWrapper = document.querySelector('.score-list');
 
+
 const displayGames = () => {
   if (errorMsg.length > 5) {
     listWrapper.innerHTML = `Error occur: ${errorMsg}`;
