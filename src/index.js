@@ -17,4 +17,3 @@ submitBtn.addEventListener('click', (e) => {
   form.reset();
 });
 
-// logData();
