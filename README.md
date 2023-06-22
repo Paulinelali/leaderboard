@@ -169,8 +169,8 @@ your prefer platform
 
 ## 🔭 Future Features <a name="future-features"></a>
 I will be doing but not limited to the following:
-- [x] add more feature
-- [x] add user interaction
+- [x] Add more features
+- [x] Add user interaction
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,10 +194,6 @@ Give it a start and contribute
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
