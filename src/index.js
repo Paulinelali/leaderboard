@@ -1,12 +1,11 @@
 import './styles/style.scss';
-import {createGame} from './modules/createGame.js';
+import { createGame } from './modules/createGame.js';
 import displayGames from './modules/displayGames.js';
 
 // fetch API
 const fresh = document.querySelector('.refresh');
 fresh.addEventListener('click', () => {
-    displayGames();
-
+  displayGames();
 });
 
 const submitBtn = document.querySelector('#submitBtn');
@@ -16,4 +15,3 @@ submitBtn.addEventListener('click', (e) => {
   createGame();
   form.reset();
 });
-
