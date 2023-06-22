@@ -20,10 +20,3 @@ const getGames = async () => {
 }
 
 export default getGames;
-
-// await fetch(urlLink)
-//     .then(res => { 
-//         if(res.ok){
-//             return (res.json())
-//         }})
-//         .then(data => console.log(data.result))
