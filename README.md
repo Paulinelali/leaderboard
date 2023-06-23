@@ -34,7 +34,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [Pauline's Portfolio Project](#paulines-portfolio-project)
 - [Ayomid s.e.p Leader Board Project](#ayomid-sep-leader-board-project)
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Leader Board ](#-leader-board-)
@@ -104,7 +103,7 @@ This project was built using the following stack:
 
 ## 🚀 Live Demo 
 
-N/A
+[Live demo](https://paulinelali.github.io/leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
