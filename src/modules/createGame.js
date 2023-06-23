@@ -1,11 +1,14 @@
-const gameId = 'SsCI5NH8IPPNIcBNj2Fk';
+const gameId = 'jtg0LMisWb65pFPzmccG';
 
 const urlLink = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`;
 
-const createGame = async (e) => {
-  e.preventDefault();
+let statusMsg = '';
+const msgWrapper = document.querySelector('.msg');
+
+const createGame = async () => {
   const user = document.querySelector('#user').value;
   const score = document.querySelector('#score').value;
+
   await fetch(urlLink, {
     method: 'POST',
     body: JSON.stringify({
@@ -15,7 +18,16 @@ const createGame = async (e) => {
     headers: {
       'Content-Type': 'application/json',
     },
-  });
+  }).then((res) => res.json())
+    .then((data) => {
+      statusMsg = data.result;
+      msgWrapper.innerHTML = statusMsg;
+      setTimeout(() => {
+        msgWrapper.innerHTML = '';
+      }, 3000);
+    });
 };
 
-export default createGame;
+const msg = statusMsg;
+
+export { createGame, msg };
