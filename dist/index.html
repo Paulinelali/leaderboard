@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayomide's Leaderboard</title>
+<script defer src="bundle.js"></script></head>
+<body>
+
+    <section class="site-wrapper">
+        <header class="header">
+            <div class="announcement-bar">
+                <span>
+                    Ayomide leaderboard
+                </span> 
+                </div>
+            <div class="elements">
+                <div class="left-right-arrow-wrapper">
+                    <span>&#8678;</span>
+                    <span>&#8680;</span>
+                </div>
+                <div class="cancel-icon">X</div>
+                <div class="up-arrow">
+                    <span>&#8679;</span>
+                </div>
+                <div class="search-field">
+                    <input type="text" placeholder="https://">
+                </div>
+                <div class="search-icon">
+                    <span>&#x1F50D;</span>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="tltel"><h1>Leaderboard</h1></div>
+                <div class="board-wrapper">
+                <section class="left-section">
+                    <div class="recent-score-search">
+                        <p class="p1">Recent score</p>
+                        <button class="refresh">Refresh</button>
+                    </div>
+                    <div class="score-board-wrapper">
+                        <ul class="score-list">
+                            
+                        </ul>
+                    </div>
+                </section>
+                <section class="right-section">
+                    <p class="p1">Add your score</p>
+                    <form action="">
+                        <input type="text" name="name" id="user" placeholder="Your name">
+                        <input type="number" name="score" id="score" placeholder="Your score">
+                        <button type="submit" class="submit" id="submitBtn">Submit</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <div class="createGameStatus">
+            <span class="msg"></span>
+        </div>
+    </section>    
+</body>
+</html>
