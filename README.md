@@ -104,7 +104,7 @@ This project was built using the following stack:
 
 ## 🚀 Live Demo 
 
-N/A
+[Live Demo](https://paulinelali.github.io/leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
